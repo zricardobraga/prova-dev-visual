@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\squal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\squal\\.nuget\\packages"
+    ]
+  }
+}
