@@ -11,6 +11,7 @@ export class CarrinhoComponent implements OnInit {
     itens: ItemVenda[] = [];
     colunasExibidas: String[] = ["nome", "preco", "quantidade", "imagem"];
     valorTotal!: number;
+
     constructor(private itemService: ItemService) {}
 
     ngOnInit(): void {

@@ -12,3 +12,13 @@ img {
     width: 100px;
     height: 100px;
 }
+
+.btnFinalizar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.margin{
+    margin-right: 5px;
+}

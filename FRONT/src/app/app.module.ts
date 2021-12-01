@@ -22,6 +22,8 @@ import { IndexComponent } from "./components/views/home/index/index.component";
 import { CadastrarProdutoComponent } from "./components/views/produto/cadastrar-produto/cadastrar-produto.component";
 import { ListarProdutoComponent } from "./components/views/produto/listar-produto/listar-produto.component";
 import { CarrinhoComponent } from './components/views/home/carrinho/carrinho.component';
+import { FinalizarVendaComponent } from './components/views/home/finalizar-venda/finalizar-venda.component';
+import { ListarVendaComponent } from './components/views/home/listar-venda/listar-venda.component';
 
 @NgModule({
     declarations: [
@@ -31,6 +33,8 @@ import { CarrinhoComponent } from './components/views/home/carrinho/carrinho.com
         TemplateComponent,
         IndexComponent,
         CarrinhoComponent,
+        FinalizarVendaComponent,
+        ListarVendaComponent,
     ],
     imports: [
         BrowserModule,

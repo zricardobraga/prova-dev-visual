@@ -1,0 +1,30 @@
+<mat-card-title>
+    Vendas
+</mat-card-title>
+<mat-grid-list cols="6" rowHeight="350px" [gutterSize]="'16px'">
+    <mat-grid-tile *ngFor="let venda of vendas">
+        <mat-card>
+            <img
+                mat-card-image
+                src="assets/images/sem_imagem.jpg"
+            />
+            <mat-card-content>
+                <mat-card-title>
+                    Id Venda: {{ venda.vendaId }}
+                </mat-card-title>
+                <mat-card-subtitle>
+                    Cliente: {{venda.cliente}}
+                </mat-card-subtitle>
+                <mat-card-subtitle>
+                    Pagamento: {{venda.idPagamento == 1 ? "Cartão" : "Boleto" }}
+                </mat-card-subtitle>
+                <mat-card-subtitle>
+                    Itens: {{ venda }}
+                </mat-card-subtitle>
+                <mat-card-subtitle>
+                    Criado em: {{ venda.criadoEm | date : 'dd/MM/yyyy HH:mm'}}
+                </mat-card-subtitle>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
